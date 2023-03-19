@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/stokee"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <!-- <EditText
+        android:id="@+id/rollno"
+        android:layout_width="188dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="8dp"
+        android:hint="R.No"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etemail" />-->
+
+    <!--
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFetch" />-->
+
+    <!-- <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonUpdate" />-->
+
+
+   <!-- <EditText
+        android:id="@+id/url"
+        android:layout_width="188dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="8dp"
+        android:hint="Image URL"
+        android:minLines="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.237"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etemail" />-->
+
+    <!--  <EditText
+        android:id="@+id/etRollno"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:hint="R.No"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etemail" />
+-->
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="291dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="16dp"
+        android:hint="Name"
+        android:textColorHint="@color/black"
+
+        android:paddingLeft="7dp"
+        android:background="@drawable/stokee"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="291dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="88dp"
+        android:hint="Email"
+
+        android:background="@drawable/stokee"
+android:textColorHint="@color/black"
+        android:paddingLeft="7dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="291dp"
+        android:layout_height="67dp"
+        android:background="@drawable/stokee"
+        android:layout_marginTop="156dp"
+        android:textColorHint="@color/black"
+
+        android:hint="Password"
+        android:paddingLeft="7dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonsend"
+        android:layout_width="197dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#1F045E"
+        android:paddingLeft="7dp"
+        android:text="Send"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+    <Button
+        android:id="@+id/move"
+        android:layout_width="197dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="168dp"
+        android:backgroundTint="#1F045E"
+        android:paddingLeft="7dp"
+        android:text="Move"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="187dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="36dp"
+        app:cardCornerRadius="200dp"
+        app:cardElevation="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.569"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password">
+
+        <ImageView
+            android:id="@+id/folder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/mnmn"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <!-- <Button
+         android:id="@+id/buttonFetch"
+         android:layout_width="335dp"
+         android:layout_height="44dp"
+
+         android:layout_marginBottom="44dp"
+         android:backgroundTint="#1F045E"
+         android:text="Fetch"
+         app:layout_constraintBottom_toBottomOf="@+id/buttonDelete"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent" />
+ -->
+  <!--  <Button
+        android:id="@+id/buttonUpdate"
+        android:layout_width="335dp"
+        android:layout_height="44dp"
+
+        android:backgroundTint="#1F045E"
+        android:text="Update"
+        app:layout_constraintBottom_toTopOf="@+id/buttonFetch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="335dp"
+        android:layout_height="44dp"
+
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#1F045E"
+        android:text="Delete"
+        app:layout_constraintBottom_toTopOf="@+id/txt_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="303dp"
+        android:layout_height="49dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="76dp"
+        android:text="Name"
+        android:textSize="25sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_email"
+        android:layout_width="303dp"
+        android:textStyle="bold"
+android:textSize="25sp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="28dp"
+        android:text="F.Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent" />
+-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
